@@ -5,10 +5,10 @@
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //1. Whenever a function is in the global scope, the "this" keyword refers to teh global/window object.
-      //2. "this" can come before a dot and a function, and the "this" will refer to whatever is calling the function.
-      //3. Inside a constructor function, "this" refers to the specific variables for each object that is created by the constructor function.
-      //4. When using call or apply, the "this" is specific to whatever is being passed into the call or apply.  
+      //1. Whenever a function is in the global scope, the "this" keyword refers to the global/window object. (default binding)
+      //2. "this" can come before a dot and a function, and the "this" will refer to whatever is calling the function. (implicit binding)
+      //3. Inside a constructor function, "this" refers to the specific variables for each object that is created by the constructor function. (new binding)
+      //4. When using call or apply, the "this" is specific to whatever is being passed into the call or apply. (explicit binding)
 
   // 3) What is the difference between call and apply?
 
